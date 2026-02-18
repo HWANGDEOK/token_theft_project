@@ -5,6 +5,7 @@ import type { Post, HomeProps } from "./types/post";
 
 
 function Home({isLogin, isModalOpen, setIsModalOpen, posts, setPosts}:HomeProps) {
+
     const [newPost, setNewPost] = useState<Post>({
         postId: 0,
         username: "",
